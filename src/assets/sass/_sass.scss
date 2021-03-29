@@ -1,0 +1,114 @@
+@import "_variables.scss";
+
+#app {
+    font-family: $font-family;
+    text-align: center;
+    border: 1px solid $gray;
+    min-height: 500px;
+    max-height: 500px;
+    margin: 20px;
+}
+
+#header{
+    @extend .align-horiz-center;
+    @extend .justify-content-space-between;
+    height: 50px;
+    background-color: $lighter;
+    padding: 10px;
+}
+
+.realtor-logo-placeholder{
+    width: 40px;
+    margin: 20 10; 
+}
+.avatar-image-placeholder
+{
+    width: 150px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+.site-title{
+    align-items: center;
+    color: $light-gray;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: $content-font-weight;
+    font-size: $content-font-size;
+}
+
+.sub-head{
+    font-weight: bolder;
+    font-size: 16px;
+    margin: 25px 0px;
+}
+
+#listings-table{
+    td{
+        padding: 1px 3px;
+    }
+}
+
+.column-title{
+    text-align: left;
+}
+
+dl{
+    @extend .align-left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+#profile-dl{
+    margin: 0px 20px;
+    width:275px;
+    dt,dd{
+        padding-bottom: 5px;
+    }
+
+    dt{
+        width: 35%;
+    }
+    dd{
+        width: 65%;
+    }
+}
+
+dt{
+    width: 25%;
+    margin: 0px;
+}
+
+dd{
+    width: 75%;
+    margin: 0px;
+    color: $light-gray;
+}
+
+dd.line-break{
+    display: table-row;
+}
+
+h3 {
+    margin: 40px 0 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+a {
+    color: $royal-blue;
+}

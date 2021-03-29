@@ -1,0 +1,22 @@
+
+.align-left{
+    text-align: left;
+}
+
+.align-horiz-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content:center;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
